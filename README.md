@@ -1,4 +1,4 @@
-# Notion VDDOS Import Helper Kit
+# Notion VendorProof Import Helper Kit
 
 ![VendorProof](assets/vendorproof_logo_transparent.png)
 
