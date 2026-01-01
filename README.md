@@ -1,6 +1,6 @@
 # Notion VendorProof Import Helper Kit
 
-![VendorProof](assets/vendorproof_logo_transparent.jpg)
+![VendorProof](assets/vendorproof_logo_white.jpg)
 
 **Optional helper kit** for technical users to import sample data into the Marketplace template.
 If you are not comfortable with a terminal, use the manual setup guide inside Notion.
