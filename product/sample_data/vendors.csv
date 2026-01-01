@@ -1,0 +1,6 @@
+Vendor,Category,Criticality,Data Access,Contract Owner,Vendor Contact Email,Status,Renewal Date,Notes
+AcmePay,Payments,High,"Payment,PII",,security@acmepay.example,Prospect,2026-03-15,Payment processor for core billing
+CloudMetrics,Cloud,Medium,"Credentials,Production Access",,security@cloudmetrics.example,Active,2026-05-01,Observability vendor
+SecureMail,SaaS,High,"PII,Credentials",,security@securemail.example,On Hold,2026-02-10,Email security provider
+DataSprint,Data,Low,"PII",,security@datasprint.example,Active,2026-08-20,Customer analytics provider
+OpsNow,Cloud,Medium,"Production Access",,security@opsnow.example,Active,2026-06-30,Incident management platform

@@ -1,0 +1,41 @@
+Question,Question Code,Domain,Question Type,Weight,Critical,Evidence Required,Suggested Evidence,Reference Tags,Pack
+Does your company have an information security policy that is regularly updated?,SC-SEC-001,Security,Yes/No,3,FALSE,TRUE,"Information security policy document, last update date","ISO27001 A.5.1, SOC2 CC1.2",SaaS Core
+Is security awareness training provided regularly for employees?,SC-SEC-002,Security,Yes/No,2,FALSE,TRUE,"Training records, participant list","ISO27001 A.7.2, SOC2 CC1.4",SaaS Core
+Is multi-factor authentication (MFA) mandatory for production environment access?,SC-ACC-001,Access,Yes/No,4,TRUE,TRUE,MFA configuration screenshot,"ISO27001 A.9.4, SOC2 CC6.1",SaaS Core
+Are user access rights managed with the principle of least privilege?,SC-ACC-002,Access,Yes/No,3,TRUE,FALSE,Access management procedure,"ISO27001 A.9.2, SOC2 CC6.2",SaaS Core
+Are system accesses of departing employees revoked on the same day?,SC-ACC-003,Access,Yes/No,3,TRUE,FALSE,Offboarding procedure,"ISO27001 A.9.2, SOC2 CC6.2",SaaS Core
+Is customer data stored encrypted (at rest encryption)?,SC-SEC-003,Security,Yes/No,5,TRUE,TRUE,"Encryption configuration, certificates","ISO27001 A.10.1, SOC2 CC6.1",SaaS Core
+Is TLS/SSL encryption used during data transmission?,SC-SEC-004,Security,Yes/No,4,FALSE,TRUE,"SSL certificate, TLS version","ISO27001 A.13.1, SOC2 CC6.1",SaaS Core
+Is regular vulnerability scanning performed?,SC-SEC-005,Security,0-5 Scale,3,FALSE,TRUE,"Last scan report, date","ISO27001 A.12.6, SOC2 CC7.1",SaaS Core
+Was penetration testing performed in the last 12 months?,SC-SEC-006,Security,Yes/No,4,FALSE,TRUE,"Pen-test report summary, date","ISO27001 A.12.6, SOC2 CC7.1",SaaS Core
+Is patch window defined for critical security vulnerabilities?,SC-SEC-007,Security,Yes/No,3,FALSE,FALSE,Patch management procedure,"ISO27001 A.12.6, SOC2 CC7.2",SaaS Core
+Are production and development environments physically/logically separated?,SC-SDLC-001,SDLC,Yes/No,4,TRUE,FALSE,Environment architecture diagram,"ISO27001 A.12.1, SOC2 CC8.1",SaaS Core
+Is there a peer review process for code changes?,SC-SDLC-002,SDLC,Yes/No,2,FALSE,FALSE,Code review procedure,"ISO27001 A.12.1, SOC2 CC8.1",SaaS Core
+Is there a change management process for production deployments?,SC-SDLC-003,SDLC,Yes/No,3,TRUE,FALSE,Change management procedure,"ISO27001 A.12.1, SOC2 CC8.1",SaaS Core
+Is source code version control system used (Git etc.)?,SC-SDLC-004,SDLC,Yes/No,2,FALSE,FALSE,Version control system information,"ISO27001 A.12.1, SOC2 CC8.1",SaaS Core
+Is automated backup system available?,SC-BCP-001,BCP/DR,Yes/No,4,TRUE,TRUE,"Backup configuration, last backup log","ISO27001 A.12.3, SOC2 CC9.1",SaaS Core
+Was backup restore testing performed in the last 6 months?,SC-BCP-002,BCP/DR,Yes/No,4,TRUE,TRUE,"Restore test report, date","ISO27001 A.12.3, SOC2 CC9.1",SaaS Core
+Is business continuity plan (BCP) documented?,SC-BCP-003,BCP/DR,Yes/No,3,FALSE,TRUE,BCP document summary,"ISO27001 A.17.1, SOC2 CC9.1",SaaS Core
+Are disaster recovery plan (DRP) and RTO/RPO targets defined?,SC-BCP-004,BCP/DR,0-5 Scale,4,TRUE,TRUE,"DRP document, RTO/RPO values","ISO27001 A.17.1, SOC2 CC9.1",SaaS Core
+Is incident response plan available for security incidents?,SC-SEC-008,Security,Yes/No,4,TRUE,TRUE,Incident response plan,"ISO27001 A.16.1, SOC2 CC7.3",SaaS Core
+Are security incidents logged in a central system (SIEM etc.)?,SC-SEC-009,Security,Yes/No,3,FALSE,TRUE,SIEM/log system information,"ISO27001 A.12.4, SOC2 CC7.2",SaaS Core
+Are logs retained for at least 90 days?,SC-SEC-010,Security,Yes/No,2,FALSE,FALSE,Log retention policy,"ISO27001 A.12.4, SOC2 CC7.2",SaaS Core
+Is there a procedure for customer data deletion?,SC-PRI-001,Privacy,Yes/No,4,TRUE,TRUE,Data deletion procedure,"GDPR Art.17, ISO27001 A.18.1",SaaS Core
+Are data processing activities recorded (ROPA)?,SC-PRI-002,Privacy,Yes/No,3,FALSE,TRUE,ROPA document,"GDPR Art.30, ISO27001 A.18.1",SaaS Core
+Is security assessment performed for third-party vendors?,SC-OPS-001,Operations,Yes/No,3,FALSE,FALSE,Vendor assessment procedure,"ISO27001 A.15.1, SOC2 CC9.2",SaaS Core
+Are system uptime/availability metrics monitored?,SC-OPS-002,Operations,Yes/No,2,FALSE,FALSE,Monitoring dashboard information,"ISO27001 A.12.1, SOC2 CC7.2",SaaS Core
+Is 24/7 monitoring available for critical systems?,SC-OPS-003,Operations,Yes/No,3,TRUE,FALSE,Monitoring and alerting configuration,"ISO27001 A.12.1, SOC2 CC7.2",SaaS Core
+Are database accesses logged and regularly reviewed?,SC-SEC-011,Security,Yes/No,4,FALSE,TRUE,Database audit log example,"ISO27001 A.12.4, SOC2 CC6.6",SaaS Core
+Are API rate limiting and DDoS protection available?,SC-SEC-012,Security,Yes/No,3,FALSE,FALSE,Rate limiting and DDoS protection configuration,"ISO27001 A.13.1, SOC2 CC6.1",SaaS Core
+Where is customer data geographically stored?,SC-PRI-003,Privacy,Free Text,2,FALSE,TRUE,"Data residency information, data center locations","GDPR Art.44, ISO27001 A.18.1",SaaS Core
+Is SOC 2 Type II or ISO 27001 certification available?,SC-COM-001,Compliance,Yes/No,5,FALSE,TRUE,"Certificate copy, validity date","SOC2, ISO27001",SaaS Core
+Is privileged access reviewed at least quarterly?,SC-ACC-004,Access,Yes/No,4,FALSE,TRUE,"Access review report, approval logs","SOC2 CC6.2, ISO27001 A.9.2",SaaS Core
+Do you enforce session timeouts for administrative consoles?,SC-ACC-005,Access,Yes/No,3,FALSE,FALSE,Admin session policy configuration,"SOC2 CC6.1, ISO27001 A.9.4",SaaS Core
+Is there a documented data retention schedule for customer data?,SC-PRI-004,Privacy,Yes/No,3,FALSE,TRUE,"Retention policy, data classification matrix","GDPR Art.5, ISO27001 A.8.2",SaaS Core
+Do you support data subject access requests (DSAR) within required timelines?,SC-PRI-005,Privacy,Yes/No,4,FALSE,TRUE,"DSAR procedure, response logs","GDPR Art.12, SOC2 CC2.3",SaaS Core
+Is a security risk assessment performed at least annually?,SC-COM-002,Compliance,Yes/No,3,FALSE,TRUE,Risk assessment report,"ISO27001 A.6.1, SOC2 CC3.2",SaaS Core
+Are third-party subprocessors reviewed and approved before use?,SC-COM-003,Compliance,Yes/No,4,FALSE,TRUE,"Vendor review checklist, approval records","GDPR Art.28, SOC2 CC1.4",SaaS Core
+Is a policy in place for regulatory or contractual compliance monitoring?,SC-COM-004,Compliance,Yes/No,2,FALSE,FALSE,"Compliance policy, review cadence",ISO27001 A.5.1,SaaS Core
+Is on-call coverage defined for critical incidents?,SC-OPS-004,Operations,Yes/No,3,FALSE,TRUE,"On-call schedule, incident rota",SOC2 CC7.4,SaaS Core
+Are operational runbooks maintained for critical services?,SC-OPS-005,Operations,Yes/No,3,FALSE,TRUE,"Runbook documents, revision history",ISO27001 A.12.1,SaaS Core
+Are code changes peer-reviewed before deployment?,SC-SDLC-005,SDLC,Yes/No,4,FALSE,TRUE,"Pull request policy, sample PRs","SOC2 CC8.1, ISO27001 A.12.1",SaaS Core

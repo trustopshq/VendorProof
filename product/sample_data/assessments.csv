@@ -1,0 +1,4 @@
+Assessment,Vendor,Type,Scope Pack,Status,Assessor,Reviewer,Start Date,Due Date,End Date,Decision,Conditions,Decision Date
+VRA-2025-001 | AcmePay | Initial,AcmePay,Initial,SaaS Core,In Progress,,,,2025-12-29,2026-01-12,,, 
+VRA-2025-002 | CloudMetrics | Annual,CloudMetrics,Annual,SaaS Core,Ready for Review,,,,2025-12-01,2025-12-20,Approve w/ Conditions,"Enable quarterly access reviews within 30 days",2025-12-20
+VRA-2025-003 | SecureMail | Initial,SecureMail,Initial,SaaS Core,Closed,,,,2025-11-10,2025-11-25,Reject,"MFA required; pen test overdue",2025-11-25

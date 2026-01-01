@@ -1,0 +1,36 @@
+Assessment,Question,Response Score Raw,Response Text,Evidence Status,Finding Severity,Notes
+VRA-2025-001 | AcmePay | Initial,Is regular vulnerability scanning performed?,1,"Weekly automated scanning",Verified,Low,Using Tenable.io
+VRA-2025-001 | AcmePay | Initial,Is 24/7 monitoring available for critical systems?,1,"24/7 monitoring",Verified,Low,PagerDuty on-call
+VRA-2025-001 | AcmePay | Initial,Was penetration testing performed in the last 12 months?,1,"No, conducted 18 months ago",Missing,High,New pen-test should be scheduled
+VRA-2025-001 | AcmePay | Initial,Is customer data stored encrypted (at rest encryption)?,1,AES-256 at rest,Verified,Low,Encryption via AWS KMS
+VRA-2025-001 | AcmePay | Initial,Is automated backup system available?,1,"Yes, daily automated backups",Verified,Low,"3 copies, 2 different locations"
+VRA-2025-001 | AcmePay | Initial,Are security incidents logged in a central system (SIEM etc.)?,1,Logging enabled,Verified,Low,CloudTrail + SIEM
+VRA-2025-001 | AcmePay | Initial,Are database accesses logged and regularly reviewed?,1,DB access reviewed,Requested,Low,Pending report
+VRA-2025-001 | AcmePay | Initial,Is there a procedure for customer data deletion?,1,Deletion procedure exists,Verified,Low,DSAR workflow defined
+VRA-2025-001 | AcmePay | Initial,Is TLS/SSL encryption used during data transmission?,1,"Yes, TLS 1.3",Verified,Low,A+ SSL Labs rating
+VRA-2025-001 | AcmePay | Initial,Is security awareness training provided regularly for employees?,1,"Yes, mandatory training every 6 months",Verified,Low,98% participation rate
+VRA-2025-001 | AcmePay | Initial,Is multi-factor authentication (MFA) mandatory for production environment access?,1,MFA enforced with Okta,Verified,Low,MFA for all admins
+VRA-2025-001 | AcmePay | Initial,Are production and development environments physically/logically separated?,1,Prod/dev separation,Verified,Low,Separate accounts
+VRA-2025-001 | AcmePay | Initial,Are user access rights managed with the principle of least privilege?,1,"Yes, RBAC system in place",Not Needed,Low,Role-based access control
+VRA-2025-001 | AcmePay | Initial,Was backup restore testing performed in the last 6 months?,1,Restore test in Q3,Verified,Low,Passed restore test
+VRA-2025-001 | AcmePay | Initial,Does your company have an information security policy that is regularly updated?,1,Policy updated annually,Verified,Low,Policy updated in 2024
+VRA-2025-001 | AcmePay | Initial,Is incident response plan available for security incidents?,1,IR plan documented,Verified,Low,Runbook in Confluence
+VRA-2025-002 | CloudMetrics | Annual,Is customer data stored encrypted (at rest encryption)?,1,"Yes, AES-256",Verified,Low,Customer-managed keys
+VRA-2025-002 | CloudMetrics | Annual,Are disaster recovery plan (DRP) and RTO/RPO targets defined?,1,DRP with RTO/RPO,Verified,Low,DRP v2
+VRA-2025-002 | CloudMetrics | Annual,Is patch window defined for critical security vulnerabilities?,1,Patch window 7 days,Verified,Low,Monthly patching
+VRA-2025-002 | CloudMetrics | Annual,Was penetration testing performed in the last 12 months?,1,"Yes, every 6 months",Verified,Low,"Last test: 2024-11"
+VRA-2025-002 | CloudMetrics | Annual,Is SOC 2 Type II or ISO 27001 certification available?,1,"Yes, both available",Verified,Low,"ISO 27001:2022, SOC 2 Type II"
+VRA-2025-002 | CloudMetrics | Annual,Is on-call coverage defined for critical incidents?,1,On-call coverage,Verified,Low,PagerDuty rota
+VRA-2025-002 | CloudMetrics | Annual,Is a security risk assessment performed at least annually?,1,Annual risk assessment,Verified,Low,2025 report
+VRA-2025-002 | CloudMetrics | Annual,Is multi-factor authentication (MFA) mandatory for production environment access?,1,"Yes, hardware token mandatory",Verified,Low,Using YubiKey
+VRA-2025-002 | CloudMetrics | Annual,Are system accesses of departing employees revoked on the same day?,1,Offboarding same-day,Verified,Low,HR checklist
+VRA-2025-002 | CloudMetrics | Annual,Is there a documented data retention schedule for customer data?,1,Retention schedule defined,Verified,Low,Retention policy v1
+VRA-2025-002 | CloudMetrics | Annual,Is incident response plan available for security incidents?,1,"Yes, documented IR plan",Verified,Low,24/7 SOC available
+VRA-2025-002 | CloudMetrics | Annual,Does your company have an information security policy that is regularly updated?,1,"Yes, ISO 27001 compliant policy",Verified,Low,Passes annual audit
+VRA-2025-003 | SecureMail | Initial,Do you support data subject access requests (DSAR) within required timelines?,1,DSAR supported,Verified,Low,GDPR response within 30 days
+VRA-2025-003 | SecureMail | Initial,Does your company have an information security policy that is regularly updated?,1,"Yes, exists",Requested,Low,Document pending
+VRA-2025-003 | SecureMail | Initial,Is customer data stored encrypted (at rest encryption)?,1,"Yes, encrypted",Requested,Low,Details pending
+VRA-2025-003 | SecureMail | Initial,Was backup restore testing performed in the last 6 months?,1,Restore test outdated,Requested,Medium,Last test 2023
+VRA-2025-003 | SecureMail | Initial,Was penetration testing performed in the last 12 months?,1,Restore test outdated,Requested,Medium,Last test 2023
+VRA-2025-003 | SecureMail | Initial,Is multi-factor authentication (MFA) mandatory for production environment access?,0,MFA not enforced,Missing,High,MFA required
+VRA-2025-003 | SecureMail | Initial,Are logs retained for at least 90 days?,0,"No, retained for 30 days",Missing,High,Retention below 90 days
